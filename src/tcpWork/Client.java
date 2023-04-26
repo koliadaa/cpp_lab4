@@ -52,7 +52,7 @@ public class Client {
 
         // Регистрация карты в системе
         AddMetroCardOperation addCardOperation = new AddMetroCardOperation();
-        addCardOperation.getCard().setUser(new User("Petr", "Petrov", "M", "25.12.1968"));
+        addCardOperation.getCard().setUser(new User("Anna", "Koliada", "F", "23.12.2003"));
         addCardOperation.getCard().setSerialNumber("00001");
         addCardOperation.getCard().setCollege("KhNU");
         addCardOperation.getCard().setBalance(0);
